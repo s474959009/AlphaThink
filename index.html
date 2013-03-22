@@ -1,0 +1,27 @@
+---
+layout:  default
+title:  AlphaThink团队
+---
+{% for post in paginator.posts %}
+<div class="post" >
+                    <div class="entry-title">
+                        <h2>
+                        <a href="{{ site:url  }}{{ post.url  }}" title="{{post.title}}">{{post.title}}</a></h2>
+                    </div>
+                    <div class="postdata ">
+                        <div class="left">
+                           AlphaThink<span class="published posted_date">
+                                团队发布于[{{ post.date | date:"%Y-%m-%d"  }}]</span>
+                            <br />
+                      
+                        </div>
+                        <div class="right">
+                           <a href="{{ site:url  }}{{ post.url  }}" title="查看">查看</a> | <a href="{{ site:url  }}{{ post.url  }}" title="评论">评论</a>
+                        </div>
+                    </div>
+                    <div class="entry-content ">
+                        <p>
+                           {{ post.description }}...... <a href="{{ site:url  }}{{ post.url  }}">更多</a> </p>
+                    </div>
+</div>
+{% endfor %}
