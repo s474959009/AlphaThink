@@ -655,7 +655,8 @@ p.tags a:hover {
 }
 #lie a span{
 	vertical-align:super;
-	font-size:1.3em;
+	font-size:1.2em;
+	margin-bottom:5px;
 }
 
 .rounded-list a{
