@@ -100,7 +100,7 @@ blockquote {
 	margin:0 0 0 3.2em;
 	padding: 0 0 0 1.6em;
 	font: italic normal 1em georgia, 'times new roman', serif;
-	color: #888;
+
 }
 a:link,
 a:visited,
@@ -709,5 +709,4 @@ p.tags a:hover {
 
 #goTopBtn a{
 	border:none;}
-	
-#container{ background: #FFFFFF}
+
