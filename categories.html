@@ -3,7 +3,7 @@ layout:  default
 ---
 <div id=lie>
 {% for cat in site.categories %}
-<a href="{{site.baseurl}}#{{ cat[0] }}" title="{{ cat[0] }}" rel="{{ cat[1].size }}"><span>{{ cat[0] }} ({{ cat[1].size }})</span></a>
+<a href="categories.html#{{ cat[0] }}-ref" title="{{ cat[0] }}" rel="{{ cat[1].size }}"><span>{{ cat[0] }} ({{ cat[1].size }})</span></a>
 {% endfor %}
 </div>
 
