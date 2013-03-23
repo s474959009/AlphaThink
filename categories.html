@@ -1,20 +1,12 @@
 ---
 layout: default
-header: Posts By Category
-group: navigation
 ---
-{% include JB/setup %}
-<h1 class="emphnext">{{ page.title }}</h1>
-<ul class="tag_box inline">
-  {% assign categories_list = site.categories %}
-  {% include JB/categories_list %}
-</ul>
-
-
-{% for category in site.categories %}
-  <h2 id="{{ category[0] }}-ref">{{ category[0] | join: "blog/" }}</h2>
-  <ul>
-    {% assign pages_list = category[1] %}
-    {% include JB/pages_list %}
-  </ul>
-{% endfor %}
+<h4>分类</h4>
+    <ul>
+        //这里使用了 Jekyll 语法，会被编译，所以加多个"\"
+        {% for category in site.categories %}
+        <li><a href="/categories/{\{ category | first }\}/" title="view all
+    posts">{{ category | first }} {{ category | last | size }}</a>
+        </li>
+        {% endfor %}
+    </ul>
