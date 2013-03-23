@@ -2,8 +2,9 @@
 layout:  default
 title:  AlphaThink团队
 ---
-{% for post in paginator.posts %}
+
 <div class="post" >
+{% for post in paginator.posts %}
                     <div class="entry-title">
                         <h2>
                         <a href="{{ site:url  }}{{ post.url  }}" title="{{post.title}}">{{post.title}}</a></h2>
@@ -23,8 +24,9 @@ title:  AlphaThink团队
                         <p>
                            {{ post.description }}...... <a href="{{ site:url  }}{{ post.url  }}">更多</a> </p>
                     </div>
-</div>
 {% endfor %}
+</div>
+
 <div id="post-pagination" class="paginator">
 
   {% if paginator.previous_page %}
