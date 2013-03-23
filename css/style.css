@@ -154,7 +154,7 @@ div.aligncenter {
 /* Layout
 *******************************/
 body {
-    color: #565656;
+    color: white;
 
 /*    background:url(images/bg.gif) 0 0 repeat-x #fff;*/
 }
@@ -649,7 +649,7 @@ p.tags a:hover {
 	margin: 2px;
 	background: #eee;
 	border-radius: 3px;
-	border:1px dashed ;
+	border:1px dashed #ccc;
 	text-decoration:none;
 }
 #lie a span{
