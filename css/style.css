@@ -641,10 +641,11 @@ p.tags a:hover {
 .sticky{}
 .bypostauthor{}
 
-#lie {
+#lie a{
 	box-shadow: 2px 2px 8px #aaa;
 	-webkit-box-shadow: 2px 2px 8px #aaa;
 	-moz-box-shadow: 2px 2px 8px #aaa;
+	font-size:2.5em
 }
 
 .menu {
@@ -652,7 +653,8 @@ p.tags a:hover {
 	list-style: none;
 	margin: 0 0 2em;
 	padding: 0;
-}
+	font-size:2.5em
+	}
 .menu li {
 	clear: both;
 	margin: 0;
@@ -676,7 +678,7 @@ p.tags a:hover {
 	bottom: -.2em;
 	right: 0;
 }
-#page, #ds-thread{
+#content, #lei{
 	background: white;
 /*	background-image: url(grid.png); */
 	padding: 3em 3em 1.5em 3em;
@@ -684,11 +686,11 @@ p.tags a:hover {
 }
 
 /* More experimental CSS3 features */
-#page, #ds-thread {
+#content, #lei {
 	box-shadow: 2px 2px 8px #aaa;
 	-webkit-box-shadow: 2px 2px 8px #aaa;
 	-moz-box-shadow: 2px 2px 8px #aaa;	
 }
 
-#ds-thread { padding-top: 0px;
+#lei { padding-top: 0px;
 	margin-top: 20px;
