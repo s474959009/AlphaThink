@@ -197,10 +197,10 @@ body {
 #header h2 {
     font-size:1.1em;
     color:#fff;
-}
+	margin-top: 7px;
+	}
 #header h2 a{
     margin-right: 15px;
-	margin-top: 15px;
 }
 /*
 Menu
