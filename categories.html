@@ -11,7 +11,7 @@ layout:  default
   <ul class="leibie rounded-list"> <h4 id="{{ cat[0] }}-ref">{{ cat[0] }}</h4>
 {% for post in cat[1] %}
   <li>
-   <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}<span >{{ post.date | date:"%Y-%m-%d" }}</span></a>
+   <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a><span >{{ post.date | date:"%Y-%m-%d" }}</span>
   </li>
 {% endfor %}
   </ul>
