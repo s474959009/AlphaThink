@@ -11,7 +11,7 @@ layout:  default
   <ol class="leibie rounded-list"> <strong>{{ cat[0] }}</strong></li>
 {% for post in cat[1] %}
   <li>
-   <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}---<time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time></a>
+   <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}<time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time></a>
   </li>
 {% endfor %}
   </ol>
