@@ -648,7 +648,7 @@ p.tags a:hover {
 #lie a {
 	padding:  13px 6px 2px 6px;
 	margin: 2px;
-
+	background: #eee;
 	border-radius: 3px;
 	border:1px dashed #ccc;
 	text-decoration:none;
@@ -660,7 +660,7 @@ p.tags a:hover {
 }
 
 .rounded-list a{
-	position: relative;
+
 	display: block;
 	padding: .4em .4em .4em 3em;
 	*padding: .4em;
