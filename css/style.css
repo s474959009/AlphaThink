@@ -641,6 +641,16 @@ p.tags a:hover {
 .sticky{}
 .bypostauthor{}
 
+.tag_box {
+	list-style:none;
+	margin:0;
+	padding:5px 0 ;
+	overflow:hidden;
+}
+.tag_box li {
+	list-style:none;
+	line-height:2em;
+}
 #lie li {
 	float:left;
 }
