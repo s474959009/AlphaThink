@@ -656,7 +656,7 @@ p.tags a:hover {
 	font-size:1.2em;
 }
 #lie a {
-	padding: 3px 6px;
+	padding: 5px 6px 3px 6px;
 	margin: 2px;
 	background: #eee;
 	border-radius: 3px;
