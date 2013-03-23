@@ -658,16 +658,6 @@ p.tags a:hover {
 	font-size:1.5em;
 }
 
-.rounded-list{
-	font-size:1.8em;
-	margin-top:15px;
-	margin-bottom:5px;
-	list-style:none;
-	margin:0;
-	padding:5px 0px;
-	overflow:hidden;
-	}
-
 .rounded-list a{
 	position: relative;
 	display: block;
