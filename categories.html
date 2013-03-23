@@ -7,7 +7,6 @@ layout:  default
 {% endfor %}
 </div>
 
-<ul class="tag_box inline">
 {% for cat in site.categories %}
   <ol class="leibie rounded-list"> {{ cat[0] }}</li>
 {% for post in cat[1] %}
@@ -18,4 +17,3 @@ layout:  default
 {% endfor %}
 {% endfor %}
   </ol>
-</ul>
