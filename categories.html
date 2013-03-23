@@ -11,10 +11,12 @@ layout:  default
 {% for cat in site.categories %}
   <li class=leibie> {{ cat[0] }}</li>
 {% for post in cat[1] %}
-  <li class=rounded-list>
+  <ol class=rounded-list>
+  <li>
    <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
   <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-  </li>
+  <li>
+  </ol>
 {% endfor %}
 {% endfor %}
 </ul>
