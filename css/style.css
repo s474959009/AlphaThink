@@ -644,7 +644,7 @@ p.tags a:hover {
 .tag_box {
 	list-style:none;
 	margin:0;
-	padding:5px 0 ;
+	padding:5px 0px;
 	overflow:hidden;
 }
 .tag_box li {
@@ -653,10 +653,9 @@ p.tags a:hover {
 }
 #lie li {
 	float:left;
-	font-size:1.2em;
 }
 #lie a {
-	padding: 5px 6px 3px 6px;
+	padding:  13px 6px 2px 6px;
 	margin: 2px;
 	background: #eee;
 	border-radius: 3px;
@@ -665,10 +664,50 @@ p.tags a:hover {
 }
 #lie a span{
 	vertical-align:super;
-	font-size:1.2em;
+	font-size:1.5em;
 }
 
-#lie leibie{
-	font-size:1.5em;
+.leibie{
+	font-size:1.8em;
 	margin-top:15px;
 	margin-bottom:5px;
+}
+
+.rounded-list a{
+	position: relative;
+	display: block;
+	padding: .4em .4em .4em 2em;
+	*padding: .4em;
+	margin: .5em 0;
+	background: #ddd;
+	color: #444;
+	text-decoration: none;
+	border-radius: .3em;
+	transition: all .3s ease-out;	
+}
+
+.rounded-list a:hover{
+	background: #eee;
+}
+
+.rounded-list a:hover:before{
+    transform: rotate(360deg);	
+}
+
+.rounded-list a:before{
+	content: counter(li);
+	counter-increment: li;
+	position: absolute;	
+	left: -1.3em;
+	top: 50%;
+	margin-top: -1.3em;
+	background: #87ceeb;
+	height: 2em;
+	width: 2em;
+	line-height: 2em;
+	border: .3em solid #fff;
+	text-align: center;
+	font-weight: bold;
+	border-radius: 2em;
+	transition: all .3s ease-out;
+}
