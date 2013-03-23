@@ -9,7 +9,7 @@ layout:  default
 
 <ul class="tag_box inline">
 {% for cat in site.categories %}
-  <ol class=leibie rounded-list> {{ cat[0] }}</li>
+  <ol class="leibie rounded-list"> {{ cat[0] }}</li>
 {% for post in cat[1] %}
   <li>
    <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
