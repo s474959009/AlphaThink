@@ -676,7 +676,7 @@ p.tags a:hover {
 .rounded-list a{
 	position: relative;
 	display: block;
-	padding: .4em .4em .4em 2em;
+	padding: .4em .4em .4em 3em;
 	*padding: .4em;
 	margin: .5em 0;
 	background: #ddd;
@@ -698,7 +698,7 @@ p.tags a:hover {
 	content: counter(li);
 	counter-increment: li;
 	position: absolute;	
-	left: -1.3em;
+	left: 0em;
 	top: 50%;
 	margin-top: -1.3em;
 	background: #87ceeb;
