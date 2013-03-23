@@ -8,7 +8,7 @@ layout:  default
 </div>
 
 {% for cat in site.categories %}
-  <ol class="leibie rounded-list"> <h4 id="{{ cat[0] }}-ref">{{ cat[0] }}</strong>
+  <ol class="leibie rounded-list"> <h5 id="{{ cat[0] }}-ref">{{ cat[0] }}</h5>
 {% for post in cat[1] %}
   <li>
    <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}<time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time></a>
