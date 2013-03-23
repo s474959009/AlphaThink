@@ -25,3 +25,12 @@ title:  AlphaThink团队
                     </div>
 </div>
 {% endfor %}
+{%if paginator.previous_page%}
+{% endif %}
+{% if paginator.next_page %}
+{% endif %}
+{% for page in (1..paginator.total_pages) %}
+{% if page == paginator.page %}
+{% else %}
+{% endif %}
+{% endfor %}
