@@ -4,6 +4,7 @@ html,body,div,span,form,h1,h2,h3,h4,p,blockquote{margin:0;padding:0;border:0;out
 :focus {outline: 0;}
 body {line-height: 1;}
 html {height: 100%;margin-bottom: 1px;}
+
 table {
     border-collapse: collapse;
     border-spacing: 0;
@@ -152,6 +153,9 @@ div.aligncenter {
 
 /* Layout
 *******************************/
+body {
+    color: #565656;
+
 /*    background:url(images/bg.gif) 0 0 repeat-x #fff;*/
 }
 #root{
@@ -202,6 +206,7 @@ Menu
 *******************************/
 #access-wrapper {
     background:#fff;
+
 }
 #access {
     display: block;
