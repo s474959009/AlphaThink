@@ -7,7 +7,7 @@ layout:  default
 {% endfor %}
 </div>
 
-<ol class="tag_box inline">
+<ul class="tag_box inline">
 {% for cat in site.categories %}
   <li class=leibie> {{ cat[0] }}</li>
 {% for post in cat[1] %}
@@ -17,4 +17,4 @@ layout:  default
   </li>
 {% endfor %}
 {% endfor %}
-</ol>
+</ul>
