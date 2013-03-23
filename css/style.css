@@ -206,7 +206,6 @@ Menu
 *******************************/
 #access-wrapper {
     background:#fff;
-
 }
 #access {
     display: block;
@@ -710,3 +709,5 @@ p.tags a:hover {
 
 #goTopBtn a{
 	border:none;}
+	
+#container{ background: #FFFFFF}
