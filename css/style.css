@@ -637,7 +637,38 @@ p.tags a:hover {
 .sticky{}
 .bypostauthor{}
 
-#content {
+#lie {
 	box-shadow: 2px 2px 8px #aaa;
 	-webkit-box-shadow: 2px 2px 8px #aaa;
 	-moz-box-shadow: 2px 2px 8px #aaa;
+}
+
+.menu {
+	width: 500px;
+	list-style: none;
+	margin: 0 0 2em;
+	padding: 0;
+}
+.menu li {
+	clear: both;
+	margin: 0;
+	padding: 0 0 1.8em 0;
+	position: relative;
+	border-bottom: dotted 2px #999;
+}
+.menu a{
+	background: #fff;
+	padding: 0 10px 0 0;
+	font-weight: normal;
+	position: absolute;
+	bottom: -.3em;
+	left: 0;
+}
+.menu time {
+	background: #fff;
+	padding: 0 0 0 5px;
+	font: 110%/100% Georgia, "Times New Roman", Times, serif;
+	position: absolute;
+	bottom: -.2em;
+	right: 0;
+}
