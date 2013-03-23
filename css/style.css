@@ -672,7 +672,7 @@ p.tags a:hover {
 	transition: all .3s ease-out;	
 }
 
-.rounded-list li{
+.rounded-list a{
 	background: #eee;
 }
 
