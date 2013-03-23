@@ -2,7 +2,7 @@
 layout:  default
 title:  AlphaThink团队
 ---
-{% for post in paginator.posts %}
+{% for post in site.posts limit:4 %}
 <div class="post" >
                     <div class="entry-title">
                         <h2>
