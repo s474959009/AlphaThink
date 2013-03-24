@@ -358,7 +358,7 @@ div.menu li {
 #content .post {
     padding-bottom:1em;
     margin-bottom:1em;
-    border-bottom: 1px dotted #D2D6D8;;
+    border-bottom: 1px none #D2D6D8;;
 }
 #content .post h2 a{
     text-align:center;
