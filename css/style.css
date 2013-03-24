@@ -698,7 +698,7 @@ p.tags a:hover {
 	background: white;
 /*	background-image: url(grid.png); */
 	padding: 5px;
-	border: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
 }
 
 #page{
