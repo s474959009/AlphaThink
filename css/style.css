@@ -708,14 +708,6 @@ text-indent:2em;
 #ds-thread { padding-top: 0px;
 	margin-top: 20px;}
 
-#goTopBtn {
-  position: fixed; _position:absolute; _top:expression(document.documentElement.clientHeight + document.documentElement.scrollTop - this.offsetHeight); TEXT-ALIGN: center; LINE-HEIGHT: 50px; WIDTH: 50px; HEIGHT: 90px; FONT-SIZE: 12px; CURSOR: pointer; left:52%; bottom:0; margin-left: 480px;
-}
-
-#goTopBtn a{
-	border:none;
-}
-
 .paginator {
 font: 14px Arial,Helvetica,sans-serif;
 color: #AAA;
