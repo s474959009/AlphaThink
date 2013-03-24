@@ -7,11 +7,23 @@
     <meta name="Keywords" content=" AlphaThink,在郑大，zzufor,郑州大学，郑州大学门户，郑州大学校园门户" />
 	<link rel="stylesheet" href="/css/style.css" type="text/css" />
 	<script type="text/javascript" src="/js/scrollpagination.js"></script>
-	<script type="text/javascript" src="/js/load.js"></script>
+	<script>
+	    $(function () {
+    $(window).scroll(function () {
+        $(document).scrollTop() > 1000 ? $("#backtotop").show().die().live("click",
+        function () {
+            $("body,html").animate({
+                scrollTop: 0
+            },
+            500)
+        }) : $("#backtotop").hide()
+    });
+});
+</script>
     <!--[if lt IE 9]>
      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <!--<script type="text/javascript" src="http://alphathink.b0.upaiyun.com/js/jquery-1.7.1.min.js"></script>-->
+    <script type="text/javascript" src="http://alphathink.b0.upaiyun.com/js/jquery-1.7.1.min.js"></script>
 </head>
 <body class="home blog">
     <div id="header-wrapper">
