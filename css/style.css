@@ -697,7 +697,7 @@ p.tags a:hover {
 #page, #ds-thread,.post{
 	background: white;
 /*	background-image: url(grid.png); */
-	padding: 3em 3em 1.5em 3em;
+	padding: 5px;
 	border: 1px solid #ccc;
 }
 
