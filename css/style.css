@@ -27,7 +27,7 @@ ins           { text-decoration:none; } /*remove underline from text*/
 del           { text-decoration:line-through; }
 acronym       { border-bottom:1px dotted #666; }
 .left   { float:left;}
-.right{ float:right;}
+.right{ float:right;font-size:1.2em;}
 /* Typography
 *******************************/
 body {
