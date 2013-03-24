@@ -22,8 +22,6 @@ ul, li {
 #imgList {
   width: 450px;
   overflow:hidden;
-  zoom: 1;
-  border: 1px solid #333;
   margin: auto;
   padding: 0 0 10px 10px;
 }
@@ -39,40 +37,16 @@ ul, li {
 
 #imgList li img {
   float: left;
-  cursor: crosshair;
-  opacity: 0.3;
-  filter: alpha(opacity=30);
 }
-
-#imgList li.current img {
-  opacity: 1;
-  filter: alpha(opacity=100);
-}
-</style>
-<script>
-window.onload = function() {
-  var oLi = document.getElementsByTagName("li");
-  for (var i = 0; i < oLi.length; i++) {
-    oLi[i].onmouseover = function() {
-      this.className = "current";
-    }
-    oLi[i].onmouseout = function() {
-      this.className = "";
-    }
-  }
-}
-</script>
-</head>
-<body>
   <div id="imgList">
     <ul>
-      <li><img src="/images/1.jpg" alt="123"/></li>
-      <li><img src="/images/2.jpg" alt="523"/></li>
-      <li><img src="/images/3.jpg" alt="173"/></li>
-      <li><img src="/images/4.jpg" alt="183"/></li>
-      <li><img src="/images/5.jpg" alt="123"/></li>
-      <li><img src="/images/6.jpg" alt="143"/></li>
-      <li><img src="/images/7.jpg" alt="163"/></li>
-      <li><img src="/images/8.jpg" alt="183"/></li>
+      <li><img src="/images/1.jpg" title="123"/></li>
+      <li><img src="/images/2.jpg" title="523"/></li>
+      <li><img src="/images/3.jpg" title="173"/></li>
+      <li><img src="/images/4.jpg" title="183"/></li>
+      <li><img src="/images/5.jpg" title="123"/></li>
+      <li><img src="/images/6.jpg" title="143"/></li>
+      <li><img src="/images/7.jpg" title="163"/></li>
+      <li><img src="/images/8.jpg" title="183"/></li>
     <ul>
   </div>
