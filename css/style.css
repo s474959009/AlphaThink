@@ -694,7 +694,7 @@ p.tags a:hover {
 .rounded-list span{
 	margin-right:20px;
 	}
-#page, #ds-thread,.post{
+#page,.post{
 	background: white;
 /*	background-image: url(grid.png); */
 	padding: 5px;
