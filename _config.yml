@@ -1,4 +1,4 @@
 baseurl: /
 url: http://zzu123.com
-paginate: 10
-safe: false
+pygments: true
+paginate: 5
