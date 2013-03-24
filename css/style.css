@@ -158,7 +158,7 @@ body {
 /*    background:url(images/bg.gif) 0 0 repeat-x #fff;*/
 }
 #root{
-    width:900px;
+    width:960px;
     margin:0 auto;
 }
 
@@ -657,7 +657,7 @@ p.tags a:hover {
 	margin-bottom:5px;
 }
 
-.rounded-list a{
+.rounded-list li{
 	display: block;
 	padding: .4em .4em .4em 3em;
 	*padding: .4em;
@@ -669,7 +669,7 @@ p.tags a:hover {
 	transition: all .3s ease-out;	
 }
 
-.rounded-list a:hover{
+.rounded-list li:hover{
 	background: #eee;
 }
 
@@ -694,12 +694,6 @@ p.tags a:hover {
 
 #page{
 text-indent:2em;
-}
-/* More experimental CSS3 features */
-#page, #ds-thread ,.post{
-	box-shadow: 2px 2px 8px #aaa;
-	-webkit-box-shadow: 2px 2px 8px #aaa;
-	-moz-box-shadow: 2px 2px 8px #aaa;	
 }
 
 #ds-thread { padding-top: 0px;
