@@ -285,7 +285,7 @@ div.menu li {
 #access ul li:hover > ul {
 	display: block;
 }
-#access ul li.current_page_item > a,
+#access ul li.current__item > a,
 #access ul li.current-menu-ancestor > a,
 #access ul li.current-menu-item > a,
 #access ul li.current-menu-parent > a {
@@ -355,11 +355,18 @@ div.menu li {
     margin:20px 50px 30px 0;
     float:left;
 }
-#content .post {
+#content  {
     padding-bottom:1em;
     margin-bottom:1em;
-    border-bottom: 1px none #D2D6D8;;
+    border-bottom: 1px none #D2D6D8;
 }
+
+.post{
+padding-bottom:1em;
+    margin-bottom:1em;
+    border-bottom: 1px none;
+}
+
 #content .post h2 a{
     text-align:center;
 }
