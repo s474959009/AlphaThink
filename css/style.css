@@ -662,6 +662,7 @@ p.tags a:hover {
 	vertical-align:super;
 	font-size:1.2em;
 	margin-bottom:5px;
+	margin-right:20px;
 }
 
 .rounded-list li{
@@ -671,9 +672,11 @@ p.tags a:hover {
 	margin: .5em 0;
 	background: #ddd;
 	color: #444;
-	text-decoration: none;
 	border-radius: .3em;
 	transition: all .3s ease-out;	
+}
+.rounded-list a:{
+	text-decoration: none;
 }
 
 .rounded-list li:hover{
