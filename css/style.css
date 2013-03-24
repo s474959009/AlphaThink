@@ -692,6 +692,9 @@ p.tags a:hover {
 	border: 1px solid #ccc;
 }
 
+#page{
+text-indent:2em;
+}
 /* More experimental CSS3 features */
 #page, #ds-thread ,.post{
 	box-shadow: 2px 2px 8px #aaa;
@@ -707,7 +710,9 @@ p.tags a:hover {
 }
 
 #goTopBtn a{
-	border:none;}
+	border:none;
+}
+
 .paginator {
 font: 14px Arial,Helvetica,sans-serif;
 color: #AAA;
