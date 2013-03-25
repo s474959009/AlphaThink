@@ -771,9 +771,9 @@ background: #83BF73;
 }
 
 #imgList {
-  width: 450px;
+  width: 550px;
   overflow:hidden;
-  margin: 0;
+  margin: 1px;
   padding: 0 0 10px 10px;
 }
 
